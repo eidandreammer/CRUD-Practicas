@@ -5,13 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":" nodemon index.js"
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eidandreammer/CRUD-Practicas.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eidandreammer/CRUD-Practicas/issues"
+  },
+  "homepage": "https://github.com/eidandreammer/CRUD-Practicas#readme",
   "dependencies": {
-    "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "pg": "^8.16.3"
   }
